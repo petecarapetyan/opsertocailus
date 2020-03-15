@@ -1,6 +1,14 @@
 # opsertocailus
 an experiment in directory structures to accommodate various friends and competing concerns.
 
+## Rationale:
+
+If your starter kit doesn't include every edge case project - then you're going to end up with a bunch of `creativity`. Which, in this case is a euphemism for every like project is different even when - uh - maybe it's really not. 
+
+Like, I'll put my images in `/src/ui/pics` and you put yours in `/lib/img` and he puts his in `/assets` ... no thanks.
+
+That's not going to work, for me. When projects are different, they need to be different by which folders are missing because we didn't need them.
+
 ## taken from:
 
 ideas from many competing example projects
@@ -36,6 +44,11 @@ ideas from many competing example projects
 - custom-elements.json
 - karma.conf.js
 - 
+
+## sometimes file type is enough:
+- example separate folders for different types of media?
+- maybe not: same folder, because .mpg and .png are good enough to keep things organized
+- this is especially true when an artifact is not accessed for daily changes, like a Web Component
 
 ## Typescript
 - is it OK to just assume that everything is typescript? Yes for a company, no for something else like OWC which we are not
