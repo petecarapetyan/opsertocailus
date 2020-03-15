@@ -9,6 +9,19 @@ Like, I'll put my images in `/src/ui/pics` and you put yours in `/lib/img` and h
 
 That's not going to work, for me. When projects are different, they need to be different by which folders are missing because we didn't need them.
 
+
+## Examples of different types of UI projects we expect to be coding with this same starter kit:
+- standard PWAs
+- non-standard PWAs such as MPA
+- standard static sites
+- static sites built from prismic or other CMS inputs
+- "micro-sites" wherever that dividing line is gawd help us 
+- capsules - whatever that is other than a huge market that NW is already serving for years
+- ad capsules - same as above except has google ad capsule wrapper
+- embeds - similar to one of the above
+- plenty of MVPs - amorphous apps that are really just barely started as working applications
+
+
 ## taken from:
 
 ideas from many competing example projects
