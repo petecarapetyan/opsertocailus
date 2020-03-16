@@ -84,3 +84,21 @@ I find the number of config files that aggregate at the root of EVERY project ex
 
 ## Naming Conventions
 - prefixes are key for Web Component naming conventions: i. e. page-some-thing to keep all pages in one group
+
+## Expanded src?
+Java works on a slightly different standard:
+
+- src/java/whatever
+- src/test/whatever
+
+If we did that, it might be OK but is slightly non-standard in the UI community? Would that be offputting?
+
+Also what about stories???
+- `/stories/`
+- `/src/...`
+
+or ? This might clean up the root but now we're really non-standard in the JS community?
+
+- `/src/stories/`
+- `/src/js/`
+- `/src/test/`
