@@ -7,7 +7,7 @@ If your starter kit doesn't include every edge case project - then you're going 
 
 Like, I'll put my images in `/src/ui/pics` and you put yours in `/lib/img` and he puts his in `/assets` ... no thanks.
 
-That's not going to work, for me. When projects are different, they need to be different by which folders are missing because we didn't need them.
+That's not going to work, for me. When projects are different, they need to be **different by which folders are missing** because we didn't need them.
 
 
 ## Examples of different _types_ of UI projects we expect to be coding with this same starter kit:
@@ -15,12 +15,25 @@ That's not going to work, for me. When projects are different, they need to be d
 - non-standard PWAs such as MPA
 - standard static sites
 - static sites built from prismic or other CMS inputs
+- static sites generated from an SSG such as 11ty
 - "micro-sites" wherever that dividing line is gawd help us 
 - capsules - whatever that is other than a huge market that NW is already serving for years
 - ad capsules - same as above except has google ad capsule wrapper
-- embeds - similar to one of the above
+- embeds - similar to one of the above except designed to fit inside another site
 - plenty of MVPs - amorphous apps that are really just barely started as working applications
 
+## Examples of fundamental stack differences:
+- might be deployed to firebase hosting
+- might be deployed to netlify
+- might be deployed to AWS and then a coding
+- might consume any of several authentication/authorization systems
+- might consume any of several REST API or even GraphQL
+- might use any of several combinations of white-label or styling approaches
+
+## Stacks that might not be so different between projects:
+- Default Typescript where JS is required
+- accept js where TS not appropriate
+- if dynamic SPA/PWA then Lit, service worker, rollup, redux(ugh) etc
 
 ## taken from:
 
@@ -31,7 +44,7 @@ ideas from many competing example projects
 - npm init @open-wc March 15 version
 - firebase init
 - my old life as a java coder
-- 11ty
+- 11ty kind of projects
 - thinking about specific un-named future projects static sites, pwa, other
 - linux (thanks Andy) https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/
 
