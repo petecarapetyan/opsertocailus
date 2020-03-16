@@ -10,7 +10,7 @@ Like, I'll put my images in `/src/ui/pics` and you put yours in `/lib/img` and h
 That's not going to work, for me. When projects are different, they need to be different by which folders are missing because we didn't need them.
 
 
-## Examples of different types of UI projects we expect to be coding with this same starter kit:
+## Examples of different _types_ of UI projects we expect to be coding with this same starter kit:
 - standard PWAs
 - non-standard PWAs such as MPA
 - standard static sites
@@ -40,17 +40,18 @@ ideas from many competing example projects
 - I really don't like folders as groupings where naming conventions could work better - EXCEPT when you can have a VERY few folders. Like 5
 - folders should always be short. There are only 5, so abbreviations are OK
 - if you're going to settle on only 5 or so folders, and always keep them universal, you better be pretty well thought out on those
-- if you have to change the folders because of the type or use case of project, that's OK for some but I'd rather not be in that group 
+- if you have to change the folders because of the type or use case of project, that's OK for some but I'd rather not be in that group of humans that has to figure out what it all means. Just do it one way and be done with it, like Linux 
 - if a folder is used for specific platforms but those platforms are not used on every project then we might have a problem. ie `public` vs `dist`
-- I find the number of folders that aggregate at the root of EVERY project extremely bothersome in my IDE. I wish we could stuff them all in a `root` folder and keep the root folder 
 - naming conventions for sorting out large sets (especially as opposed to folders) 
-- typical projects end up needing something such as an assets folders by any of a dozen names
+- typical projects end up needing something such as an `assets` folders by any of a dozen names
 
 ## good uses for folders
 - folders that are used to exclude focus - but only when few and can't be done with naming conventions
-- when stuff inside the folder is truly like
+- when stuff inside the folder is truly alike - such as web components
 
-## i know it's not conventional but can any of these be moved into etc?
+## i know it's not conventional but can any of these be moved into /etc?
+I find the number of config files that aggregate at the root of EVERY project extremely bothersome in my IDE. I wish we could stuff them all in an `etc` folder and keep the root folder a bit cleaner. 5 straggler files in root is too much, any more is worse
+
 - rollup.config.yada.js
 - tsconfig.json
 - workbox...
@@ -59,7 +60,7 @@ ideas from many competing example projects
 - 
 
 ## sometimes file type is enough:
-- example separate folders for different types of media?
+- example: separate folders for different types of media? 
 - maybe not: same folder, because .mpg and .png are good enough to keep things organized
 - this is especially true when an artifact is not accessed for daily changes, like a Web Component
 
